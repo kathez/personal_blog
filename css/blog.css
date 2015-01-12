@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Homemade+Apple);
+@import url(http://fonts.googleapis.com/css?family=Handlee);
+
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.tag-line {
+    font-family: 'Homemade Apple', Helvetica, sans-serif;
+}
+
+main {
+    font-family: 'Handlee', Helvetica, sans-serif;
+    font-size: 18px;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1em;
+}
+
+#shortcut {
+    float: right;
+}
+
+
+header, section, footer {
+    padding: 1em;
+}
+
+header {
+    color: #FFFFFF;
+    overflow: auto;
+}
+
+header a:link,
+header a:visited {
+    color: #2B3F7D;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-weight: 400;
+}
+
+header a:hover,
+header a:focus {
+    text-decoration: underline;
+    color: #2B3F7D;
+    background-color: rgba(222,180,72, 0.7);
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+#week_one {
+    background-color: rgba(237,215,178, 0.7);
+    padding: 1em;
+}
