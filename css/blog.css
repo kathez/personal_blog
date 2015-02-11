@@ -36,6 +36,8 @@ section {
 
 header, section, footer {
     padding: 1em;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 header {
