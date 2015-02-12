@@ -30,7 +30,15 @@ section {
 }
 
 #shortcut {
-    float: right;
+    /*float: right;*/
+    padding-right: 1em;
+    position: fixed;
+    margin-top: 20%;
+    margin-left: -2%;
+}
+
+#shortcut a {
+    clear: both;
 }
 
 
@@ -45,8 +53,8 @@ header {
     overflow: auto;
 }
 
-header a:link,
-header a:visited {
+#shortcut a:link,
+#shortcut a:visited {
     color: #2B3F7D;
     text-decoration: none;
     padding-left: 1em;
@@ -56,8 +64,8 @@ header a:visited {
     font-weight: 400;
 }
 
-header a:hover,
-header a:focus {
+#shortcut a:hover,
+#shortcut a:focus {
     text-decoration: underline;
     color: #2B3F7D;
     /*background-color: rgba(222,180,72, 0.7);*/
