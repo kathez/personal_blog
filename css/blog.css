@@ -92,3 +92,9 @@ ul {
 #week_two p {
     overflow: hidden;
 }
+
+li div img {
+    max-height: 300px;
+    max-width: 400px;
+    clear: both;
+}
