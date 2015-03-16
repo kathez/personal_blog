@@ -33,7 +33,7 @@ section {
     /*float: right;*/
     padding-right: 1em;
     position: fixed;
-    margin-top: 20%;
+    margin-top: 0;
     margin-left: -2%;
 }
 
@@ -103,6 +103,11 @@ li div img {
     max-width: 80%;
 }
 
-#week_six img {
+#week_six img, #ideas img {
     max-width: 80%;
+}
+
+#shortcut img {
+    max-width: 20%;
+    margin: 1em;
 }
