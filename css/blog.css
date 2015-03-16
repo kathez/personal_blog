@@ -98,3 +98,7 @@ li div img {
     max-width: 400px;
     clear: both;
 }
+
+#longimg {
+    max-width: 80%;
+}
